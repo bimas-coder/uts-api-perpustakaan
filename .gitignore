@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Database lokal (dibuat ulang oleh seed.py)
+*.db
+*.db-wal
+*.db-shm
+
+# Hasil Locust (CSV) dan catatan benchmark lokal
+read_*.csv
+write_*.csv
+hasil.txt
+run_*.txt
+
+# Editor dan OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
